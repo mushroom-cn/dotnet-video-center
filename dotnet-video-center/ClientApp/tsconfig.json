@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "newLine": "lf",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@api": [
+        "src/api"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@less": [
+        "src/less"
+      ],
+      "@less/*": [
+        "src/less/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "global"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

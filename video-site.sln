@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-video-center", "dotnet-video-center\dotnet-video-center.csproj", "{C3FCA10C-7019-4E98-AC0A-081A39D58109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-video-center.Test", "dotnet-video-center.Test\dotnet-video-center.Test.csproj", "{45916BE2-1863-446A-9D84-43D7931A495D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3FCA10C-7019-4E98-AC0A-081A39D58109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FCA10C-7019-4E98-AC0A-081A39D58109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FCA10C-7019-4E98-AC0A-081A39D58109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FCA10C-7019-4E98-AC0A-081A39D58109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45916BE2-1863-446A-9D84-43D7931A495D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45916BE2-1863-446A-9D84-43D7931A495D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45916BE2-1863-446A-9D84-43D7931A495D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45916BE2-1863-446A-9D84-43D7931A495D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
