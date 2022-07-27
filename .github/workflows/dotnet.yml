@@ -22,7 +22,7 @@ jobs:
         
     - name: Build 
       run: |
-        cd ClientApp
+        cd dotnet-video-center/ClientApp
         npm install
         npm run build:prod
         
