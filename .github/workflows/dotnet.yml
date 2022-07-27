@@ -1,8 +1,11 @@
 name: .NET
 
 on:
-  push:
-    branches: [ "main" ]
+  create:
+      tags:
+        - release*
+        - pre*
+        - v*
   pull_request:
     branches: [ "main" ]
 
@@ -19,14 +22,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        
-    - name: Build 
-      run: |
-        ls -al
-        pwd
-       # cd dotnet-video-center/ClientApp
-       ## npm install
-       # npm run build:prod
         
     - uses: actions/checkout@v3
     - name: Setup .NET
