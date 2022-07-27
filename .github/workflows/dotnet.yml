@@ -22,10 +22,11 @@ jobs:
         
     - name: Build 
       run: |
-        ls
-        cd dotnet-video-center/ClientApp
-        npm install
-        npm run build:prod
+        ls -al
+        pwd
+       # cd dotnet-video-center/ClientApp
+       ## npm install
+       # npm run build:prod
         
     - uses: actions/checkout@v3
     - name: Setup .NET
