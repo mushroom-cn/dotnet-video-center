@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using Quartz;
 using Serilog;
 
+
 var AllowSpecificOrigins = "Gmm7AllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
@@ -68,8 +69,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: AllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("https://localhost:44480",
-                                              "https://127.0.0.1:44480")
+                          policy.WithOrigins("http://localhost:44480",
+                                              "http://127.0.0.1:44480")
                                               .AllowAnyHeader()
                                                   .AllowAnyMethod();
                       });

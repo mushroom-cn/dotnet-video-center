@@ -22,7 +22,7 @@ const config = {
     host: "localhost",
     compress: true,
     port: 44480,
-    http2: true,
+    // http2: true,
     // https: {
     //   passphrase: "webpack-dev-server",
     //   requestCert: true,
@@ -47,7 +47,7 @@ const config = {
       manifest: "./public/manifest.json",
     }),
     new webpack.DefinePlugin({
-      SERVER_HOST: JSON.stringify("https://localhost:7199"),
+      SERVER_HOST: JSON.stringify("http://localhost:7199"),
     }),
     new CopyPlugin({
       patterns: [
